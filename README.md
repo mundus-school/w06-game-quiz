@@ -10,4 +10,4 @@ Quiz program. That's all you're getting. It's 16:07 and I'm super tired. Can't t
 Download files and run index.html in browser
 
 ## Preview:
-- Coming soon - 
+https://mundus-school.github.io/w06-game-quiz/
