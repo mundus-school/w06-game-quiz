@@ -1,0 +1,149 @@
+body {
+  font-family: "Funnel Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 17px;
+}
+
+#gameWrapper {
+  height: 97vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blueviolet;
+}
+
+#gameWindow {
+  height: 550px;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(170, 101, 235);
+}
+
+#startBox {
+  height: 225px;
+  width: 740px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(197, 154, 238);
+}
+
+#startBtn {
+  height: 175px;
+  width: 650px;
+  background-color: rgb(217, 190, 241);
+  border: 4px solid rgb(170, 137, 199);
+  font-family: "Funnel Sans", sans-serif;
+  font-size: 42px;
+  font-weight: 900px;
+}
+
+#startBtn:hover {
+  background-color: rgb(230, 216, 243);
+}
+
+#startBtn:active {
+  background-color: rgb(170, 137, 199);
+}
+
+#qBox {
+  height: 240px;
+  width: 700px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(197, 154, 238);
+}
+
+#aBox {
+  height: 225px;
+  width: 720px;
+  display: none;
+  /* display: grid; */
+  grid-template-columns: auto auto;
+  column-gap: 10px;
+  row-gap: 10px;
+  padding: 10px;
+  background-color: rgb(197, 154, 238);
+}
+
+.btns {
+  background-color: rgb(217, 190, 241);
+  border: 4px solid rgb(170, 137, 199);
+  font-family: "Funnel Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600px;
+}
+
+.btns:hover {
+  background-color: rgb(230, 216, 243);
+}
+
+.btns:active {
+  background-color: rgb(170, 137, 199);
+}
+
+#qTitle {
+  font-size: 46px;
+  font-weight: 900;
+  margin: 0;
+}
+
+#endBox {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  height: 95%;
+  width: 95%;
+  background-color: rgb(197, 154, 238);
+}
+
+#endTitle {
+  font-size: 46px;
+  font-weight: 900;
+  margin: 0;
+}
+
+#endText {
+  font-size: 17px;
+}
+
+#resultText {
+  font-size: 42px;
+  font-weight: 900;
+  margin: 0;
+}
+
+#resultScore {
+  font-size: 67px;
+  font-weight: 900;
+  margin: 0;
+}
+
+#restartBtn {
+  height: 175px;
+  width: 650px;
+  background-color: rgb(217, 190, 241);
+  border: 4px solid rgb(170, 137, 199);
+  font-family: "Funnel Sans", sans-serif;
+  font-size: 42px;
+  font-weight: 900px;
+}
+
+#restartBtn:hover {
+  background-color: rgb(230, 216, 243);
+}
+
+#restartBtn:active {
+  background-color: rgb(170, 137, 199);
+}

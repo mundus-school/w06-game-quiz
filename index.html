@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebDev Quiz</title>
+    <link rel="stylesheet" href="content/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Mystery+Quest&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="gameWrapper">
+      <div id="gameWindow">
+        <div id="qBox">
+          <h1 id="qTitle">
+            <span style="font-size: 32px">Welcome to the</span><br />
+            WebDev Quiz Challenge!
+          </h1>
+          <p id="qText">
+            Test your web development knowledge with this interactive 4-choice
+            quiz. Each question has four possible answers — Pick the one you
+            think is correct, and see how well you really know HTML, CSS, and
+            JavaScript. Ready to put your skills to the test?<br /><br />
+            Click the <span style="font-weight: bold">Start button</span> to
+            begin your quiz adventure!
+          </p>
+        </div>
+        <div id="startBox"><button id="startBtn">START THE QUIZ</button></div>
+        <div id="aBox">
+          <button id="btn1" class="btns">Button 1</button>
+          <button id="btn2" class="btns">Button 2</button>
+          <button id="btn3" class="btns">Button 3</button>
+          <button id="btn4" class="btns">Button 4</button>
+        </div>
+
+        <!-- End-Box, Initially invisible-->
+        <div id="endBox">
+          <h1 id="endTitle">Quiz Complete!</h1>
+          <p id="endText">
+            Awesome job! You gave it your best and hopefully learned something
+            new along the way. Keep up the great work! Remember, every question
+            you tackle helps you improve, and the more you practice, the sharper
+            your skills get. Don’t forget to challenge yourself again soon!
+          </p>
+          <p id="resultText">Your score was:</p>
+          <p id="resultScore">9/10</p>
+          <button id="restartBtn">Try Again</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="content/js/script.js" type="text/javascript"></script>
+  </body>
+</html>
